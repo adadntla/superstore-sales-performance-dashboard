@@ -2,74 +2,167 @@
 
 ## 📌 Project Overview
 
-This project analyzes the Sample Superstore dataset using SQL for data analysis and Power BI for data visualization. SQL queries were used to explore sales, profit, product categories, states, and shipping performance. The insights were then presented through an interactive Power BI dashboard to support data-driven business decisions.
+The **Sales Performance Dashboard** is a Data Analytics project built using **Microsoft Excel, MySQL, and Power BI**. The project focuses on preparing sales data, analyzing business performance using SQL, and creating an interactive dashboard to visualize key sales insights.
+
+The dashboard helps businesses understand sales performance across different product categories, states, shipping modes, and discount levels.
 
 ---
 
-## 🛠️ Tools Used
+# 🛠 Tools & Technologies Used
 
-- Power BI
-- MySQL (SQL)
 - Microsoft Excel
-- DAX
+- MySQL
+- Power BI
+- GitHub
 
 ---
 
-## 🎯 Business Questions
+# 📂 Project Workflow
 
-- Which product categories generate the highest sales?
-- Which categories generate the highest profit?
-- Which states contribute the most to sales and profit?
-- How does discount affect profit?
-- Which shipping mode is used the most?
-- What are the overall sales, profit, and quantity sold?
+## 📑 Step 1: Data Preparation (Microsoft Excel)
+
+The Sample Superstore dataset was prepared in Microsoft Excel before importing it into MySQL.
+
+### Tasks Performed
+
+- Imported the dataset
+- Checked data quality
+- Removed duplicate records
+- Saved the cleaned dataset as CSV for SQL analysis
 
 ---
 
-## 📈 Dashboard Features
+## 🗄 Step 2: Data Analysis (MySQL)
 
-- KPI Cards (Total Sales, Total Profit, Total Quantity Sold)
+The cleaned dataset was imported into MySQL to perform business analysis.
+
+### SQL Analysis Included
+
+- Total Sales
+- Total Profit
+- Total Quantity Sold
+- Sales by Category
+- Profit by Category
+- Sales by State
+- Sales by Ship Mode
+- Discount vs Profit Analysis
+
+SQL concepts used:
+
+- SELECT
+- COUNT()
+- SUM()
+- AVG()
+- ROUND()
+- GROUP BY
+- ORDER BY
+
+---
+
+## 📊 Step 3: Dashboard Development (Power BI)
+
+Created an interactive Sales Performance Dashboard using Power BI.
+
+### KPI Cards
+
+- Total Sales
+- Total Profit
+- Total Quantity Sold
+
+### Dashboard Visualizations
+
 - Sales by Category
 - Profit by Category
 - Sales by State
 - Sales by Ship Mode
 - Discount vs Profit Scatter Plot
-- Interactive Slicers and Filters
+
+### Interactive Features
+
+- Slicers
+- Filters
+- Interactive Dashboard
 
 ---
 
-## 💡 Key Insights
+# 📈 Key Insights
 
-- Technology is one of the most profitable product categories.
-- Office Supplies generated high sales but comparatively lower profit.
-- Higher discounts often resulted in lower profits.
-- Sales and profits varied across different states.
-- Standard Class was the most commonly used shipping mode.
-- The dashboard enables quick identification of business trends and performance.
-
----
-
-## 📂 Project Files
-
-- `salesdashboard.pbix` – Power BI Dashboard
-- `Sample_Superstore.csv` – Dataset
-- `SQL_Queries.sql` – SQL Queries Used for Analysis
-- `SalesDashboard.pdf` – Dashboard Export
+- Technology generated one of the highest profits.
+- Office Supplies produced high sales but comparatively lower profit.
+- Higher discounts generally reduced profitability.
+- Sales performance varied across different states.
+- Standard Class was the most frequently used shipping mode.
 
 ---
 
-## 👩‍💻 Skills Demonstrated
+# 📁 Project Files
+
+- 📄 Sample_Superstore.csv
+- 📄 salesanalysis.sql
+- 📄 superstoredashboard.pbix
+- 📄 superstoredashboard.pdf
+- 🖼 sales_dashboard_ss1.png
+- 🖼 sales_dashboard_ss2.png
+- 🖼 sales_dashboard_ss3.png
+
+---
+
+# 📷 Dashboard Preview
+
+## Dashboard Overview
+
+![Dashboard Overview](sales_dashboard_ss1.png)
+
+## Sales Analysis
+
+![Sales Analysis](sales_dashboard_ss2.png)
+
+## Interactive Dashboard
+
+![Interactive Dashboard](sales_dashboard_ss3.png)
+
+---
+
+# 🚀 Skills Demonstrated
+
+### Microsoft Excel
 
 - Data Cleaning
-- SQL Querying
-- Data Analysis
-- Power BI Dashboard Development
+- Removing Duplicates
+- Data Preparation
+
+### MySQL
+
+- Data Import
+- SQL Queries
+- Aggregate Functions
+- GROUP BY
+- ORDER BY
+- Business Data Analysis
+
+### Power BI
+
+- KPI Cards
+- Charts
+- Slicers
+- Interactive Dashboard
 - Data Visualization
-- Business Insight Generation
+- Dashboard Formatting
 
 ---
 
-## 📷 Dashboard Preview
+# 🎯 Project Outcome
 
-The Power BI dashboard has been included as a PDF in this repository.
+This project demonstrates a complete workflow starting from data preparation in Microsoft Excel, performing business analysis using MySQL, and creating an interactive Power BI dashboard to present sales insights.
 
+The dashboard enables users to monitor sales performance, compare product categories, evaluate shipping modes, analyze discount impact, and make data-driven business decisions.
+
+---
+
+## 👩‍💻 Author
+
+**Ada Donatella**
+
+Aspiring Data Analyst skilled in Microsoft Excel, MySQL, Power BI, Python, and Data Visualization.
+
+GitHub: https://github.com/adadntla
